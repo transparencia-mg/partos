@@ -27,7 +27,7 @@ resources:
           description: "Partos (total de partos realizados, independentemente da via de nascimento)."
         - name: cesareas
           type: integer
-          description: "Cesáreas (subconjunto de partos realizados por via cirúrgica, também chamados cesarianas)".
+          description: "Cesáreas (subconjunto de partos realizados por via cirúrgica, também chamados cesarianas)."
     scheme: file
     title: Partos a partir de 2025
 title: Partos
