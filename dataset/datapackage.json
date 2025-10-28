@@ -1,0 +1,46 @@
+{
+  "name": "partos",
+  "owner_org": "fundacao-hospitalar-do-estado-de-minas-gerais-fhemig",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "partos-2025",
+      "path": "data/partos-2025.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "unidade",
+            "type": "string"
+          },
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "mes",
+            "type": "integer"
+          },
+          {
+            "name": "partos",
+            "type": "integer"
+          },
+          {
+            "name": "cesareas",
+            "type": "integer"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Partos"
+}
