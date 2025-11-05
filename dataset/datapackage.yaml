@@ -2,7 +2,7 @@ name: partos
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
 resources:
-  - description: Dados de partos realizados por unidade Fhemig a partir de 2025.
+  - description: Dados de partos realizados por unidade FHEMIG a partir de 2025.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
